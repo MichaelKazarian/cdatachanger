@@ -1,0 +1,11 @@
+* Simulation of data exchange between the device and the phone.
+
+The protocol should resemble Modbus with a mandatory checksum.
+Data transfer takes place through:
+
+** Command line arguments
+
+** Through the pipe
+
+** Files
+
