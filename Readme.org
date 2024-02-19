@@ -8,4 +8,14 @@ Data transfer takes place through:
 ** Through the pipe
 
 ** Files
-
+*** getoptmin.c
+Program to minimal test the getopt() function in C
+#+BEGIN_EXAMPLE shell
+$ ./getoptmin
+Usage:
+getoptmin [-d][-gns arg]
+$ ./getoptmin -ds12 -g22
+Do it
+Set: 12
+Get: 22
+#+END_EXAMPLE
