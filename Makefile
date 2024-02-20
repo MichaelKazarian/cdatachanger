@@ -1,5 +1,11 @@
 BIN=./bin
 
+datasender: datasender-build
+	$(BIN)/datasender -I 2
+
+datasender-build: bindir
+	gcc datasender.c -o $(BIN)/datasender
+
 getoptmin: getoptmin-build
 	$(BIN)/getoptmin
 
